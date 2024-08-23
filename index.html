@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title> 
+    <!--   Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- font Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- DaisyUi Cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- tailwind Cdn  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'button-bg': 'rgb(171, 239, 95)',
+              }
+            }
+          }
+        }
+      </script>
+      <style>
+         .manrope-font{
+            font-family: "Manrope", sans-serif;
+        }
+        </style>
+    
+</head>
+<body class="manrope-font">
+
+  <!-- Header Section  -->
+<header class="md:container mx-auto px-12 mt-8 mb-16">
+  <!-- Navbar  -->
+    <nav>
+      
+        <div class="navbar bg-base-100">
+            <div class="flex space-x-6 ml-8 items-center">
+              <div class="dropdown">
+                
+                
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a>Home</a></li>
+                  <li>
+                    <a>Services</a> </li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>Blogs</a></li>
+                  <li><a>Contact us</a></li>
+                </ul>
+              </div>
+
+              <a class="btn btn-ghost text-2xl font-extrabold"><i class="fa-solid fa-arrow-right pt-1 -rotate-45 w-8 h-8 bg-button-bg rounded-full"></i>Rinterio</a>
+           
+               <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-sm text-[#737373]">
+                  <li><a class="font-extrabold text-black">Home</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>Blogs</a></li>
+                  <li><a>Contact Us</a></li>
+                </ul>
+              </div>
+            
+              <div class="px-20 flex items-center space-x-4">
+                <div>
+                  <i class="fa-solid fa-magnifying-glass w-10 h-10 bg-white border pt-3 pl-2.5 rounded-full"></i>
+                </div>
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 inline w-10 h-10 bg-white border pt-1 pl-1 text-center rounded-full ">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                  </svg>
+                </div>
+             
+           <!-- Book Consult Button  -->
+            <div class="sm:flex">
+            <a class="btn bg-button-bg rounded-3xl text-black  font-extrabold ">Book Consult <i class="fa-solid fa-arrow-right text-white pt-2 -rotate-45 w-8 h-8 bg-black rounded-full"></i></a>
+            </div>
+            
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+           </div>
+            </div>
+  </div>
+</nav>
+<!-- Banner section  -->
+<div class="hero  ">
+  <div class="hero-content flex-col justify-center">
+    
+    <!-- Image -->
+    <img src="assets/banner.png" class="max-w-sm " alt="Image Above">
+    
+    <!-- Text Content -->
+    <div class="text-center">
+      <h1 class="text-6xl font-extrabold ml-12 text-[#212121]">A barn house of this design has a <br> striking appearance</h1>
+      <p class="py-6 font-semibold text-sm text-[#737373] ml-16">A barn house of this design commands attention with its striking appearance, seamlessly blending rustic charm with modern sophistication <br>  to create a  truly unique and captivating structure.</p>
+    
+      <button class="btn bg-[#ABEF5F80] rounded-3xl text-black  font-extrabold text-lg">View Details <i class="fa-solid fa-arrow-right text-black pt-2 -rotate-45 w-8 h-8 bg-button-bg rounded-full"></i></button>
+    </div>
+    </div>
+</div>
+</header>
+<main>
+  <!-- section-1  -->
+ <section>
+
+ <div class="flex flex-col lg:flex-row items-center lg:items-start p-8 bg-gray-100">
+
+  <div>
+    <div>
+      <img  src="assets/Vector.png" alt="">
+    </div>
+  
+  
+  
+    <div class="flex ml-20 mt-2">
+     <!-- Left Section (Text and Buttons) -->
+     <div class="lg:w-1/2 space-y-4">
+      <!-- About Us Button -->
+      <button class="btn bg-white btn-sm rounded-full">
+        <i class="fa-solid fa-arrow-right"></i>About Us</button>
+      
+      <!-- Main Heading -->
+      <h1 class="text-4xl font-extrabold text-gray-800">
+        We design thoughtful,<br>
+         liveable spaces
+      </h1>
+  
+      <!-- Subtext -->
+      <p class="text-gray-600 text-sm font-semibold">
+        Our approach to design is centered on creating spaces that are both thoughtful and liveable. We believe that every element of a space should serve a purpose, contributing to an environment.
+      </p>
+      
+      <!-- Features Section -->
+      <div class="space-y-4">
+        <!-- Feature 1 -->
+        <div class="p-4 bg-white shadow-md rounded-lg flex items-start space-x-4">
+          <div class="flex-shrink-0">
+            <!-- Icon for Commercial -->
+            <svg class="w-6 h-6 text-gray-500" fill="currentColor" viewBox="0 0 24 24">
+              <!-- Add your SVG icon here -->
+            </svg>
+          </div>
+          <div class="flex items-center ">
+            <!-- commercial image  -->
+            <div>
+              <img class="w-[70%]"  src="assets/commercial.png" alt="">
+            </div>
+           <!-- Text-section  -->
+           <div>
+            <h2 class="text-lg font-extrabold text-[#494949]
+            ">Commercial</h2>
+            <p class="text-gray-600 text-sm font-semibold">This barn house offers a perfect blend of rustic charm and modern amenities.</p>
+           </div>
+          </div>
+        </div>
+        
+        <!-- Feature 2 -->
+        <div class="p-4 bg-white shadow-md rounded-lg flex items-start space-x-4">
+          <div class="flex-shrink-0">
+            <!-- Icon for Residential -->
+            <svg class="w-6 h-6 text-gray-500" fill="currentColor" viewBox="0 0 24 24">
+              <!-- Add your SVG icon here -->
+            </svg>
+          </div>
+          <div class="flex items-center">
+            <div>
+              <img class="w-[70%]" src="assets/residential.png" alt="">
+            </div>
+            <div>
+              <h2 class="text-lg font-extrabold text-[#494949]">Residential</h2>
+              <p class="text-gray-600 text-sm font-semibold">As a residential retreat, this barn house offers a perfect blend of warmth and elegance.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Right Section (Image) -->
+    <div class="lg:w-1/2 lg:pl-8 mt-10 lg:mt-0">
+      <img  src="assets/Rectangle.png" alt="Modern House" class="rounded-lg mt-4 shadow-lg w-[82%]">
+    </div>
+  </div>
+  </div>
+
+  </div>
+  
+</section>
+
+
+</main>
+</body>
+</html>
